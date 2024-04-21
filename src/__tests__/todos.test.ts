@@ -1,5 +1,6 @@
 import * as htmlFunctions from "../ts/htmlFunctions";
 import { Todo } from "../models/Todo";
+import { addTodo, removeTodo, toggleTodo } from "../ts/todos";
 
 describe("Testing todos", () => {
     let mockedCreateHtml: jest.SpyInstance<void>;
